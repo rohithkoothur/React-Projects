@@ -45,9 +45,9 @@ function App() {
             <i onClick={(e)=>{
               setToDos(toDos.filter(obj2=>{
                 if(obj2.id===obj.id){
-                  
+                  setToDos.pop(obj2.text)
                 }
-                
+                return obj2;
               }))
               
               

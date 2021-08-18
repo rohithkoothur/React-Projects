@@ -35,31 +35,13 @@ function App() {
                 if(obj2.id===obj.id){
                   obj2.status=e.target.checked
                 }
-                return obj2;
               }))
 
             }} value={obj.status} type="checkbox" name="" id="" />
             <p>{obj.text}</p>
           </div>
           <div className="right">
-            <i onClick={(e)=>{
-              setToDos(toDos.filter(obj2=>{
-                if(obj2.id===obj.id){
-                  
-                }
-                
-              }))
-              
-              
-
-              
-            }
-
-            }
-            
-            
-            
-            className="fas fa-times"></i>
+            <i className="fas fa-times"></i>
           </div>
         </div>})}
       </div>

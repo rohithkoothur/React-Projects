@@ -42,24 +42,7 @@ function App() {
             <p>{obj.text}</p>
           </div>
           <div className="right">
-            <i onClick={(e)=>{
-              setToDos(toDos.filter(obj2=>{
-                if(obj2.id===obj.id){
-                  
-                }
-                
-              }))
-              
-              
-
-              
-            }
-
-            }
-            
-            
-            
-            className="fas fa-times"></i>
+            <i className="fas fa-times"></i>
           </div>
         </div>})}
       </div>

@@ -45,9 +45,9 @@ function App() {
             <i onClick={(e)=>{
               setToDos(toDos.filter(obj2=>{
                 if(obj2.id===obj.id){
-                  
+                  obj2.status=e.target.checked
                 }
-                
+                return obj2;
               }))
               
               

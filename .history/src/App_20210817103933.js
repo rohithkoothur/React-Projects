@@ -42,14 +42,8 @@ function App() {
             <p>{obj.text}</p>
           </div>
           <div className="right">
-            <i onClick={(e)=>{
-              setToDos(toDos.filter(obj2=>{
-                if(obj2.id===obj.id){
-                  
-                }
-                
-              }))
-              
+            <i onChange={(e)=>{
+              console.log("rohith")
               
 
               

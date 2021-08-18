@@ -42,15 +42,13 @@ function App() {
             <p>{obj.text}</p>
           </div>
           <div className="right">
-            <i onClick={(e)=>{
+            <i onChange={(e)=>{
               setToDos(toDos.filter(obj2=>{
                 if(obj2.id===obj.id){
-                  
+                  setToDos.pop(obj2.text)
                 }
-                
+                return obj2;
               }))
-              
-              
 
               
             }
