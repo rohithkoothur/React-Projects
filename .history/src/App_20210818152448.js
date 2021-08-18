@@ -2,7 +2,7 @@
 import React from 'react';
 import './App.css';
 import { useState } from 'react';
-
+import { date } from 'check-types';
 function App() {
   const [toDos,setToDos]=useState([])
   const [toDo,setToDo]=useState('')
@@ -47,7 +47,6 @@ function App() {
                 if(obj2.id===obj.id){
                   
                 }
-                return null
                 
               })) 
               
